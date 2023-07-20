@@ -2,10 +2,10 @@
 With the help of Express and JSX, we will build a simple and single web page application called todo-app, where the user performs a CURD operation. 
 
 ## Table of Contents 
-* [Setup] (#Setup)
-* [Dependency]
-* [Story]
-* [OutPut]
+* [Setup](#Setup)
+* [Dependency](#Dependency)
+* [Story](#Story)
+* [OutPut](#Output)
 
 
 ## Setup 
@@ -26,6 +26,7 @@ With the help of Express and JSX, we will build a simple and single web page app
 - [ ] Model (Data.js)
       - Create an array of todos.
       //the task array with initial placeholders for added task
+      
       var task = ["buy socks", "practise with nodejs"];
       var complete = ["finish jquery"];
 
@@ -46,7 +47,7 @@ With the help of Express and JSX, we will build a simple and single web page app
      -  Delete the todo respective of id from the array.
      
 
--[ ] OutPut 
+-[ ] Output 
 
 ![Screenshot 2023-07-20 at 1 42 43 AM](https://github.com/CodeSTACKE/todoApp/assets/48188772/ba2f045e-ce2e-4ae8-9b75-224a018a5118)
 
