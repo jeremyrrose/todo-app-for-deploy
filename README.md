@@ -2,7 +2,7 @@
 With the help of Express and JSX, we will build a simple and single web page application called todo-app, where the user performs a CURD operation. 
 
 ## Table of Contents 
-* [Setup] #Setup
+* [Setup] [#Setup]
 * [Dependency]
 * [Story]
 * [OutPut]
