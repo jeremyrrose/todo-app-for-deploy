@@ -5,7 +5,7 @@ With the help of Express and JSX, we will build a simple and single web page app
 * [Setup](#Setup)
 * [Dependency](#Dependency)
 * [Story](#Story)
-* [OutPut](#Output)
+* [Output](#Output)
 
 
 ## Setup 
