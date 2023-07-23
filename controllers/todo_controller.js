@@ -15,15 +15,22 @@ router.get('/', (req, res) => {
     })
 })
 
+// CREATE
 router.post('/', (req, res) => {
     data.tasks.push(req.body.add)
     res.redirect('/todos')
 })
 
+// UPDATE
 router.put('/:todo_id', (req, res) => {
-    console.log(req.params.todo_id)
     const foundTodo = data.tasks.splice(req.params.todo_id, 1)
     data.complete.push(foundTodo[0])
+    res.redirect('/todos')
+})
+
+// DELETE
+router.delete('/:todo_id', (req, res) => {
+    const foundTodo = data.tasks.splice(req.params.todo_id, 1)
     res.redirect('/todos')
 })
 

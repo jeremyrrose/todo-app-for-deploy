@@ -21,11 +21,13 @@ function Home ({ tasks, complete }) {
                 <ul>
                     {tasks.map((item, index) => {
                         return (
-                            <li key={index}>
-                                <input type="checkbox" value={index} />
+                            <li style={{display: "flex", margin: 8}} key={index}>
                                 {item}
-                                <form action={`/todos/${index}?_method=PUT`} method="POST">
+                                <form style={{margin: 2}} action={`/todos/${index}?_method=PUT`} method="POST">
                                     <button type="submit">&#10003;</button>
+                                </form>
+                                <form style={{margin: 2}} action={`/todos/${index}?_method=DELETE`} method="POST">
+                                    <button type="submit">&#10060;</button>
                                 </form>
                             </li>
                         )
